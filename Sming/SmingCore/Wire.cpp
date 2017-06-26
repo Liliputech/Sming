@@ -45,8 +45,8 @@ uint8_t TwoWire::transmitting = 0;
 void (*TwoWire::user_onRequest)(void);
 void (*TwoWire::user_onReceive)(int);
 
-static int default_sda_pin = 2;
-static int default_scl_pin = 0;
+static int default_sda_pin = 4;
+static int default_scl_pin = 5;
 
 // Constructors ////////////////////////////////////////////////////////////////
 
